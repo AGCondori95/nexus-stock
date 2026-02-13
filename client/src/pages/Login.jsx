@@ -47,6 +47,8 @@ export const Login = () => {
           </div>
         </CardContent>
       </Card>
+
+      <p>User: john@example.com | Pass: password123</p>
     </div>
   );
 };
