@@ -104,8 +104,8 @@
 ## 📁 Project Structure
 
 ```
-nexusstock/
-├── nexusstock-backend/
+nexus-stock/
+├── server/
 │   ├── src/
 │   │   ├── config/
 │   │   │   ├── database.js
@@ -145,7 +145,7 @@ nexusstock/
 │   ├── package.json
 │   └── server.js
 │
-└── nexusstock-frontend/
+└── clients/
     ├── src/
     │   ├── api/
     │   │   ├── axios.js
@@ -212,15 +212,15 @@ nexusstock/
 #### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/nexusstock.git
-cd nexusstock
+git clone https://github.com/AGCondori95/nexus-stock.git
+cd nexus-stock
 ```
 
 #### 2️⃣ Backend Setup
 
 ```bash
 # Navigate to backend directory
-cd nexusstock-backend
+cd server
 
 # Install dependencies
 npm install
@@ -272,7 +272,7 @@ Backend will run on **http://localhost:5000**
 
 ```bash
 # Navigate to frontend directory (from root)
-cd nexusstock-frontend
+cd server
 
 # Install dependencies
 npm install
